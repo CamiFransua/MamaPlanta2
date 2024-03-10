@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mama Planta - Bar de Pastas Veganas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Menú</h1>
+    <form id="formularioPedido">
+        <label for="seleccionarPasta">Seleccione pasta:</label>
+        <select id="seleccionarPasta">
+            <option value="Ñoquis">Ñoquis</option>
+            <option value="Sorrentinos">Sorrentinos de champiñones y queso</option>
+            <option value="Tallarines">Tallarines</option>
+            <option value="Canelones">Canelones de verduras</option>
+        </select>
+
+        <label for="seleccionarSalsa">Seleccione salsa:</label>
+        <select id="seleccionarSalsa">
+            <option value="Roja">Roja</option>
+            <option value="Blanca">Blanca</option>
+            <option value="Mixta">Mixta</option>
+            <option value="Espinaca">de Espinaca</option>
+        </select>
+
+        <button type="submit">Agregar al pedido</button>
+    </form>
+    <div id="resumenPedido">
+        <h2>Resumen del pedido</h2>
+        <ul id="listaPedidos">
+            <!-- bla bla bla -->
+        </ul>
+        <p id="totalPedido">Total del pedido: $0.00 </p>
+        <button id="botonFinalizarCompra">Finalizar compra</button>
+    </div>
+    
+    <script src="./main.js"></script>    
+</body>
+</html>
