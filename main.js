@@ -101,7 +101,7 @@ const seleccionarSalsa = document.getElementById('seleccionarSalsa');
 const listaPedidos = document.getElementById('listaPedidos');
 const totalPedido = document.getElementById('totalPedido');
 
-// Función para obtener el precio de la pasta seleccionada - //- Este código me lo dió ChatGPT, no me traía el precio de los sorrentinos
+// Función para obtener el precio de la pasta seleccionada - Este código me lo dió ChatGPT, no me traía el precio de los sorrentinos
 function obtenerPrecioPasta(pastaSeleccionada) {
     const informacionPastaSeleccionada = pastas.find(item => item.nombre.toLowerCase().includes(pastaSeleccionada.toLowerCase())); 
     return informacionPastaSeleccionada ? informacionPastaSeleccionada.precio : 0;
